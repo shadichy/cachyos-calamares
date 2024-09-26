@@ -16,7 +16,7 @@ if [ -n "$check_znver4_znver5" ]; then
   sed -i '/disabled_v[34]/d' $pacman_conf_cachyos
   echo "backup old config"
   mv $pacman_conf $pacman_conf_path_backup
-  echo "CachyOS -znver4 Repo changed"
+  echo "BlissOS -znver4 Repo changed"
   mv $pacman_conf_cachyos $pacman_conf
 elif [ $check_v4 == "x86-64-v4" ]; then
   echo "x86-64-v4 is supported"
@@ -25,7 +25,7 @@ elif [ $check_v4 == "x86-64-v4" ]; then
   sed -i '/disabled_znver4/d' $pacman_conf_cachyos
   echo "backup old config"
   mv $pacman_conf $pacman_conf_path_backup
-  echo "CachyOS -v4 Repo changed"
+  echo "BlissOS -v4 Repo changed"
   mv $pacman_conf_cachyos $pacman_conf
 elif [ $check_v3 == "x86-64-v3" ]; then
   echo "x86-64-v3 is supported"
@@ -34,12 +34,12 @@ elif [ $check_v3 == "x86-64-v3" ]; then
   sed -i '/disabled_v4/d' $pacman_conf_cachyos
   echo "backup old config"
   mv $pacman_conf $pacman_conf_path_backup
-  echo "CachyOS -v3 Repo changed"
+  echo "BlissOS -v3 Repo changed"
   mv $pacman_conf_cachyos $pacman_conf
 else
   echo "x86-64-v4 and x86-64 is not supported"
   echo "backup old config"
   mv $pacman_conf $pacman_conf_path_backup
-  echo "CachyOS Repo changed"
+  echo "BlissOS Repo changed"
   mv $pacman_conf_cachyos $pacman_conf
 fi

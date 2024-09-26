@@ -3,4 +3,4 @@
 # haveged -w 1024
 pacman-key --init
 # pkill haveged
-pacman-key --populate archlinux cachyos
+pacman-key --populate archlinux blissos

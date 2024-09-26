@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  cachyos
+componentName:  blissos
 
 
 ### WELCOME / OVERALL WORDING
@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         CachyOS
-    shortProductName:    CachyOS
+    productName:         BlissOS
+    shortProductName:    BlissOS
     version:             2024-03-30
     shortVersion:        2024-03-30
-    versionedName:       CachyOS
-    shortVersionedName:  CachyOS
-    bootloaderEntryName: CachyOS
+    versionedName:       BlissOS
+    shortVersionedName:  BlissOS
+    bootloaderEntryName: BlissOS
 
 # These images are loaded from the branding module directory.
 #

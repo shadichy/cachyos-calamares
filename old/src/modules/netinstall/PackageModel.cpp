@@ -221,12 +221,12 @@ PackageModel::setData( const QModelIndex& index, const QVariant& value, int role
         item->setSelected( checkedStateInfo );
 
         auto filteredPkgNames = getPackageNames( getPackages() )
-            .filter( "cachyos-" )
+            .filter( "blissos-" )
             .filter( "-settings" );
         const auto dotfilesCount = [](auto&& packageNames) {
             using namespace std::string_view_literals;
-            static constexpr std::array kDotfilePackages{"cachyos-gnome-settings"sv, "cachyos-hyprland-settings"sv, "cachyos-i3wm-settings"sv, "cachyos-kde-settings"sv,
-                                                         "cachyos-openbox-settings"sv, "cachyos-qtile-settings"sv, "cachyos-wayfire-settings"sv, "cachyos-xfce-settings"sv};
+            static constexpr std::array kDotfilePackages{"blissos-gnome-settings"sv, "blissos-hyprland-settings"sv, "blissos-i3wm-settings"sv, "blissos-kde-settings"sv,
+                                                         "blissos-openbox-settings"sv, "blissos-qtile-settings"sv, "blissos-wayfire-settings"sv, "blissos-xfce-settings"sv};
 
             size_t dotfilesCount{};
             for ( auto&& packageName : packageNames ) {

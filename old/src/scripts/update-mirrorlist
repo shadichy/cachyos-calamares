@@ -6,4 +6,4 @@ if [ $check_rate_mirrors -eq -1 ];then
    echo "Updating rate-mirrors"
    sudo pacman -Sy --noconfirm rate-mirrors
 fi
-sudo cachyos-rate-mirrors
+sudo blissos-rate-mirrors

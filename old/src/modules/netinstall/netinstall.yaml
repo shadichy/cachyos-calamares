@@ -1,35 +1,35 @@
-- name: "CachyOS required (hidden)"
-  description: "needed CachyOS packages"
+- name: "BlissOS required (hidden)"
+  description: "needed BlissOS packages"
   hidden: true
   selected: true
   critical: true
   packages:
-     - cachyos-hooks
-     - cachyos-keyring
-     - cachyos-mirrorlist
-     - cachyos-v3-mirrorlist
-     - cachyos-v4-mirrorlist
-     - cachyos-rate-mirrors
-     - linux-cachyos
-     - linux-cachyos-headers
+     - blissos-hooks
+     - blissos-keyring
+     - blissos-mirrorlist
+     - blissos-v3-mirrorlist
+     - blissos-v4-mirrorlist
+     - blissos-rate-mirrors
+     - linux-blissos
+     - linux-blissos-headers
      - grub-hook
      - chwd
-- name: "CachyOS Packages"
-  description: "needed CachyOS packages"
+- name: "BlissOS Packages"
+  description: "needed BlissOS packages"
   hidden: false
   selected: true
   critical: true
   packages:
      - cachy-browser
-     - cachyos-fish-config
-     - cachyos-ananicy-rules
-     - cachyos-hello
-     - cachyos-kernel-manager
-     - cachyos-packageinstaller
-     - cachyos-settings
-     - cachyos-zsh-config
-     - cachyos-micro-settings
-     - cachyos-wallpapers
+     - blissos-fish-config
+     - blissos-ananicy-rules
+     - blissos-hello
+     - blissos-kernel-manager
+     - blissos-packageinstaller
+     - blissos-settings
+     - blissos-zsh-config
+     - blissos-micro-settings
+     - blissos-wallpapers
 - name: "Base-devel + Common packages"
   description: "Recommended. Don't change unless you know what you're doing (generic)."
   hidden: false
@@ -120,7 +120,7 @@
           - unzip
           - xz
       - name: "fonts"
-        description: "CachyOS font selection"
+        description: "BlissOS font selection"
         selected: true
         packages:
           - adobe-source-han-sans-cn-fonts
@@ -205,11 +205,11 @@
   selected: false
   critical: true
   packages:
-    - cachyos-nord-kde-theme-git
-    - cachyos-iridescent-kde
-    - cachyos-emerald-kde-theme-git
-    - cachyos-kde-settings
-    - cachyos-themes-sddm
+    - blissos-nord-kde-theme-git
+    - blissos-iridescent-kde
+    - blissos-emerald-kde-theme-git
+    - blissos-kde-settings
+    - blissos-themes-sddm
     - ark
     - bluedevil
     - breeze-gtk
@@ -293,7 +293,7 @@
   selected: false
   critical: true
   packages:
-    - cachyos-xfce-settings
+    - blissos-xfce-settings
     - blueman
     - file-roller
     - galculator
@@ -333,7 +333,7 @@
   selected: false
   critical: true
   packages:
-    - cachyos-picom-config
+    - blissos-picom-config
     - bspwm
     - sxhkd
     - polybar
@@ -425,8 +425,8 @@
   expanded: false
   critical: true
   packages:
-    - cachyos-i3wm-settings
-    - cachyos-picom-config
+    - blissos-i3wm-settings
+    - blissos-picom-config
     - i3-wm
     - i3blocks
     - i3lock-color
@@ -442,7 +442,7 @@
   expanded: false
   critical: true
   packages:
-    - cachyos-hyprland-settings
+    - blissos-hyprland-settings
     - hyprland
     - kvantum
     - qt5ct
@@ -469,7 +469,7 @@
     - xorg-xwayland
     - capitaine-cursors
     - kvantum-theme-nordic-git
-    - cachyos-nord-gtk-theme-git
+    - blissos-nord-gtk-theme-git
 - name: "LXDE-Desktop"
   description: "The Lightweight Desktop Environment."
   hidden: false
@@ -561,7 +561,7 @@
   selected: false
   critical: true
   packages:
-    - cachyos-openbox-settings
+    - blissos-openbox-settings
     - obconf
     - libwnck3
     - acpi
@@ -613,7 +613,7 @@
   selected: false
   critical: true
   packages:
-    - cachyos-qtile-settings
+    - blissos-qtile-settings
     - ttf-nerd-fonts-symbols
     - qtile
     - ttf-cascadia-code
@@ -692,7 +692,7 @@
   expanded: false
   critical: true
   packages:
-    - cachyos-wayfire-settings
+    - blissos-wayfire-settings
     - wayfire-desktop-git
     - egl-wayland
     - wayland-protocols
